@@ -1,0 +1,54 @@
+body,
+html {
+  height: 100%;
+  margin: 0%;
+  font-size: 16px;
+  font-display: "Comic Sans MS", sans-serif,;
+  font-display: libre
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #3d4246;
+}
+.border {
+  color: white;
+  font-size: 40px;
+}
+.border2 {
+  color: white;
+  font-size: 25px;
+}
+.section {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+.section-light {
+  font-size: 20px;
+}
+
+.pic1,
+.pic2,
+.pic3 {
+  position: relative;
+  /* opacity: 0.8; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* to remove parallax use scroll instead of fixed */
+  background-attachment: fixed;
+}
+
+.pic1 {
+  background-image: url(/Users/cthompson/wdi/portfolio/images/cover.jpg);
+  min-height: 91%;
+}
+
+.pic2 {
+  background-image: url(/Users/cthompson/wdi/portfolio/images/code.jpg);
+  min-height: 90%;
+}
+
+/* .pic3 {
+  background-image: url(/Users/cthompson/wdi/christinafthompson/ChristinafThompson/images/city.jpg);
+  min-height: 400px;
+} */
