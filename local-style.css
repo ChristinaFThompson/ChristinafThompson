@@ -10,6 +10,7 @@ html {
   color: #3d4246;
 }
 .border {
+  display: flex;
   color: white;
   font-size: 40px;
 }
@@ -18,7 +19,7 @@ html {
   font-size: 25px;
 }
 .section {
-  background-color: black;
+  background-color: grey;
   color: aliceblue;
   text-align: center;
 }
